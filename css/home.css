@@ -85,6 +85,10 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.image1 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
 .nav_top_menu .top_menu_box {
     display: flex;
     flex-direction: row;
