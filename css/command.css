@@ -214,16 +214,17 @@ p {
     display: flex;
     flex-direction: row;
     /* align-items: center; */
-    gap: 32px;
+    /* gap: 32px; */
 }
 .navbar_frame .navbar_route_menu a {
+    margin-right: 20px;
     color: #fff;
     font-family: "Jost";
     font-size: 16px;
     font-weight: 400;
 }
 .navbar_frame .navbar_route_menu a.title {
-    color: rgba(255, 255, 255, 1);
+    color: #f5c34b;
     font-weight: 600;
 }
 .navbar_frame .navbat_bott_menu_box .sorting_menu {
