@@ -8,3 +8,237 @@ a {
 p {
     margin: 0;
 }
+.container {
+    position: relative;
+    width: 1320px;
+    height: auto;
+    display: flex;
+}
+
+
+/* navbar part */
+.navbar_frame {
+    position: relative;
+    width: 100%;
+    height: 145px;
+    background: rgb(68, 50, 151);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbar_frame .container {
+
+    padding: 20px 0 14px;
+    flex-direction: column;
+   
+}
+.navbar_frame .container .navbar_top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+}
+.navbar_frame .navbar_top .nav_search_frame {
+    width: 651px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+.navbar_frame .nav_search_frame .search_box {
+    padding: 10px 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar_frame .search_box .category_list {
+    width: 166px;
+    height: 30px;
+    border-right: 1px solid rgb(214, 214, 214);
+}
+.navbar_frame .category_list select {
+    width: 140px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.navbar_frame .search_box input {
+    margin-left: 12px;
+    width: 387px;
+    height: 22px;
+    color: rgba(98, 105, 116, 1);
+    border: none;
+    outline: none;
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar_frame .nav_search_frame .search_icon_box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 6px 6px 0px;
+    background: rgb(245, 195, 75);
+}
+.navbar_frame .navbar_top .nav_top_menu {
+    width: 417px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar_frame .image1 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.navbar_frame .nav_top_menu .top_menu_box {
+    display: flex;
+    flex-direction: row;
+}
+.navbar_frame .top_menu_box .icon_box {
+    position: relative;
+    width: 54px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+.navbar_frame .icon_box img {
+    width: 22px;
+    height: 22px;
+}
+.navbar_frame .info_box span {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar_frame .info_box strong {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar_frame .top_menu_box .info_box {
+    margin-top: 15px;
+    width: 69px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 16px;
+}
+.navbar_frame .icon_box .basket_count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(245, 195, 75, 1);
+    border-radius: 50%;
+    color: rgb(11, 30, 64);
+    font-family: "Jost";
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar_frame .container .navbar_bott {
+    margin-top: 20px;
+    border-top: 1px solid #5747a2;
+}
+.navbar_frame .navbar_bott .navbat_bott_menu_box {
+    margin-top: 10px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbar_frame .navbar_bott .browse_box {
+    width: 185px;
+    height: 20px;
+    padding-right: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid #5747a2;
+    gap: 8px;
+    cursor: pointer;
+}
+.navbar_frame .browse_box img {
+    width: 18px;
+    height: 18px;
+}
+.navbar_frame .browse_box span {
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+}
+.navbar_frame .navbat_bott_menu_box .navbar_route_menu {
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap: 32px;
+}
+.navbar_frame .navbar_route_menu a {
+    color: #fff;
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+}
+.navbar_frame .navbar_route_menu a.title {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+.navbar_frame .navbat_bott_menu_box .sorting_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto;
+}
+.navbar_frame .sorting_menu span {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Jost";
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+
+}
