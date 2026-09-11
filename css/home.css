@@ -1,7 +1,7 @@
 .home_page {
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    /* padding: 60px; */
 }
 /* PAGINATION */
 .container .pagionation_box {
@@ -632,4 +632,23 @@
 }
 .container .pagionation-dot .dot.active {
     border: 2px solid #112137
+}
+/* adv-frame */
+.home_page .adv-frame {
+    margin-top: 90px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5edff;
+    color: rgba(0, 83, 246, 1);
+
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
 }
