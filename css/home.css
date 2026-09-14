@@ -49,6 +49,14 @@
     border: 2px solid #112137}
 /* PAGINATION */
 
+/* border */
+ .container .hover_border {
+    margin-top: 3px;
+    background: rgba(4, 30, 66, 1);
+    width: 32px;
+    height: 2px;
+}
+
 /* category top */
 .container .category_top {
     width: 100%;
@@ -244,12 +252,13 @@
     line-height: 22px;
     letter-spacing: 0%;
 }
- .header_frame .box_left .hover_border {
+    .header_frame .box_left .hover_border {
     margin-top: 3px;
     background: rgba(4, 30, 66, 1);
-    width: 32px;
-    height: 2px;
-}
+
+    width: 127px;
+    height: 2px;}
+
  .header_frame .header_box .box_right {
     width: 50%;
 }
@@ -634,7 +643,7 @@
     border: 2px solid #112137
 }
 /* adv-frame */
-.home_page .adv-frame {
+.home_page .adv_frame {
     margin-top: 90px;
     width: 100%;
     height: 120px;
@@ -651,4 +660,151 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+}
+/* spec product */
+
+.home_page .spec_product_frame {
+    position: relative;
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.spec_product_frame .container {
+    flex-direction: column;
+}
+.spec_product_frame .container .spec_product_wrapper {
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+.spec_product_frame .spec_product_wrapper .big_product_box {
+    position: relative; 
+    background: rgba(243, 245, 246, 1);
+
+    width: 664px;
+    height: 368px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+}
+.spec_product_frame .big_product_box .big_product_content {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    justify-content: flex-end;
+}
+.big_product_content span {
+    color: rgba(4, 30, 66, 1);
+
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.spec_product_frame .big_product_content strong {
+    color: rgba(4, 30, 66, 1);
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.spec_product_frame .big_product_content a {
+    color: rgba(4, 30, 66, 1);
+
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.spec_product_frame .big_product_box img {
+    width: 322px;
+    height: 309px;
+    right: 5%;
+    position: absolute;
+}
+.spec_product_frame .spec_product_wrapper .small_product_wrapper {
+    margin-left: 50px;
+    width: 620px;
+    height: 368px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+   
+}
+
+.spec_product_frame .small_product_wrapper .small_product_box {
+    position: relative;
+    border-radius: 6px;
+    background: rgba(243, 245, 246, 1);
+    width: 293px;
+    height: 170px;
+
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.spec_product_frame .small_product_box:nth-child(odd){
+    margin-right: 20px;
+
+}
+.spec_product_frame .small_product_box:nth-child(1){
+    margin-bottom: 30px;
+}
+
+.spec_product_frame .small_product_box .small_product_content {
+    display: flex;
+    flex-direction: column;
+
+}
+.spec_product_frame .small_product_content strong {
+    color: rgba(4, 30, 66, 1);
+
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+.spec_product_frame .small_product_content span {
+    color: rgba(98, 105, 116, 1);
+
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.spec_product_frame .small_product_box img {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+  
+    margin-bottom: 15px;
 }
