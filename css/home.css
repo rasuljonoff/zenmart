@@ -4,10 +4,10 @@
     /* padding: 60px; */
 }
 /* swiper */
-.swiper {
-  width: 600px;
-  height: 300px;
-}
+/* .swiper {
+  width: auto;
+  height: auto;
+} */
 .white_svg {
     filter: brightness(0) invert(1);
 }
@@ -939,7 +939,7 @@
     line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .event_frame .event_content_box a {
     width: 140px;
