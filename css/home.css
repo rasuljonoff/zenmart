@@ -532,6 +532,7 @@
 
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 
 }
 .selling_product_frame .product_boxes .product_box {

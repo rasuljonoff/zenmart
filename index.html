@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    
 </head>
 <body>
     <div class="navbar_frame">
@@ -20,7 +21,6 @@
                 <a href="index.html">
                     <img  class="image1" src="./images/icons/logo.png" alt="Zenmart logo" />
                 </a>
-
                 <div class="nav_search_frame">
                     <div class="search_box">
                         <div class="category_list">
@@ -36,7 +36,6 @@
                         <img src="./images/icons/search.svg" alt="Search" />
                     </div>
                 </div>
-
                 <div class="nav_top_menu">
                     <div class="top_menu_box">
                         <div class="icon_box">
@@ -47,7 +46,6 @@
                             <strong>My Items</strong>
                         </div>
                     </div>
-
                     <div class="top_menu_box">
                         <div class="icon_box">
                             <img src="./images/icons/profile.svg" alt="Account" />
@@ -57,7 +55,6 @@
                             <strong>Account</strong>
                         </div>
                     </div>
-
                     <div class="top_menu_box">
                         <div class="icon_box">
                             <div class="basket_count">2</div>
@@ -70,14 +67,12 @@
                     </div>
                 </div>
             </div>
-
             <div class="navbar_bott">
                 <div class="navbat_bott_menu_box">
                     <div class="browse_box">
                         <img src="./images/icons/browse.svg" alt="Categories" />
                         <span>Browse Categories</span>
                     </div>
-
                     <div class="navbar_route_menu">
                         <a href="homepage1.html" class="title">Home</a>
                         <a href="shop.html">Shop</a>
@@ -85,7 +80,6 @@
                         <a href="about.html">About</a>
                         <a href="contact.html">Contact</a>
                     </div>
-
                     <div class="sorting_menu">
                         <span>Deal of the Day</span>
                         <span>Hot Deals</span>
@@ -168,7 +162,6 @@
                         <p>Pay with Multiple Credit Cards</p>
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="shop_category_frame">
@@ -223,124 +216,261 @@
                     <span>Top Selling Products</span>
                     <a href="">View All</a>
                 </div>
-                <div class="product_wrapper">
-                    <div class="next_prev_box">
-                        <img src="./images/icons/next.svg" alt="">
-                    </div>
-                    <div class="product_boxes">
-                        <div class="product_box">
+            <div class="product_wrapper">
+                <div class="next_prev_box product_prev">
+                    <img src="./images/icons/next.svg" alt="">
+                </div>
+                <div class="swiper product_swiper product_boxes">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide product_box">
                             <a href="">
-                                <div class="product_img_box" style="background: url('images/products/watch.png'); background-size: cover;" >
+                                <div class="product_img_box" style="background: url('images/products/watch.png'); background-size: cover;">
                                     <div class="hover_box">
                                         <button>Add to Cart</button>
                                     </div>
                                 </div>
                             </a>
                             <div class="product_content_box">
-                            <span class="product_title">SAMSUNG</span>
-                            <a href="">
-                                <p class="product_desk">Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with</p>
-                            </a>
-                            <div class="review_box">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <span>3,014 reviews</span>
-                            </div>
-                            <div class="price_box">
-                                <strong>$32.50</strong>
-                                <span>$45</span>
-                            </div>
+                                <span class="product_title">SAMSUNG</span>
+                                <a href="">
+                                    <p class="product_desk">Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with</p>
+                                </a>
+                                <div class="review_box">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <span>3,014 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                    <strong>$32.50</strong>
+                                    <span>$45</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="product_box">
+                        <div class="swiper-slide product_box">
                             <a href="">
-                                <div class="product_img_box" style="background: url('images/products/phone.png'); background-size: cover;" >
+                                <div class="product_img_box" style="background: url('images/products/phone.png'); background-size: cover;">
                                     <div class="hover_box">
                                         <button>Add to Cart</button>
                                     </div>
                                 </div>
                             </a>
                             <div class="product_content_box">
-                            <span class="product_title">IPHONE</span>
-                            <a href="">
-                                <p class="product_desk">Apple iPhone 11 64GB Smartphone - Black.</p>
-                            </a>
-                            <div class="review_box">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <span>1,003 reviews</span>
-                            </div>
-                            <div class="price_box">
-                                <strong>$349</strong>
-                                <span>$350</span>
-                            </div>
+                                <span class="product_title">IPHONE</span>
+                                <a href="">
+                                    <p class="product_desk">Apple iPhone 11 64GB Smartphone - Black.</p>
+                                </a>
+                                <div class="review_box">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <span>1,003 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                    <strong>$349</strong>
+                                    <span>$350</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="product_box">
+                        <div class="swiper-slide product_box">
                             <a href="">
-                                <div class="product_img_box" style="background: url('images/products/iRobot.png'); background-size: cover;" >
+                                <div class="product_img_box" style="background: url('images/products/iRobot.png'); background-size: cover;">
                                     <div class="hover_box">
                                         <button>Add to Cart</button>
                                     </div>
                                 </div>
                             </a>
                             <div class="product_content_box">
-                            <span class="product_title">SONY</span>
-                            <a href="">
-                                <p class="product_desk">iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty Robot.</p>
-                            </a>
-                            <div class="review_box">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <span>2,450 reviews</span>
-                            </div>
-                            <div class="price_box">
-                                <strong>$399.00</strong>
-                                <span>$400</span>
-                            </div>
+                                <span class="product_title">SONY</span>
+                                <a href="">
+                                    <p class="product_desk">iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty Robot.</p>
+                                </a>
+                                <div class="review_box">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <span>2,450 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                    <strong>$399.00</strong>
+                                    <span>$400</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="product_box">
+                        <div class="swiper-slide product_box">
                             <a href="">
-                                <div class="product_img_box" style="background: url('images/products/dyson.png'); background-size: cover;" >
+                                <div class="product_img_box" style="background: url('images/products/dyson.png'); background-size: cover;">
                                     <div class="hover_box">
                                         <button>Add to Cart</button>
                                     </div>
                                 </div>
                             </a>
                             <div class="product_content_box">
-                            <span class="product_title">EASTSPORT</span>
-                            <a href="">
-                                <p class="product_desk">Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue</p>
-                            </a>
-                            <div class="review_box">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <img src="./images/icons/review.svg" alt="">
-                                <span>5,056 reviews</span>
-                            </div>
-                            <div class="price_box">
-                                <strong>$249.00</strong>
-                                <span>$250</span>
-                            </div>
+                                <span class="product_title">EASTSPORT</span>
+                                <a href="">
+                                    <p class="product_desk">Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue</p>
+                                </a>
+                                <div class="review_box">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <span>5,056 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                    <strong>$249.00</strong>
+                                    <span>$250</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="next_prev_box" style="transform: scaleX(-1);">
-                        <img src="./images/icons/next.svg" alt="">
+                        <div class="swiper-slide product_box">
+                            <a href="">
+                                <div class="product_img_box" style="background: url('images/products/watch.png'); background-size: cover;">
+                                    <div class="hover_box">
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="product_content_box">
+                                <span class="product_title">SAMSUNG</span>
+                                <a href="">
+                                    <p class="product_desk">Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with</p>
+                                </a>
+                                <div class="review_box">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <span>3,014 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                    <strong>$32.50</strong>
+                                    <span>$45</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide product_box">
+                            <a href="">
+                                <div class="product_img_box" style="background: url('images/products/dyson.png'); background-size: cover;">
+                                    <div class="hover_box">
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="product_content_box">
+                                <span class="product_title">EASTSPORT</span>
+                                <a href="">
+                                    <p class="product_desk">Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue</p>
+                                </a>
+                                <div class="review_box">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <span>5,056 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                    <strong>$249.00</strong>
+                                    <span>$250</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide product_box">
+                            <a href="">
+                                <div class="product_img_box" style="background: url('images/products/phone.png'); background-size: cover;">
+                                    <div class="hover_box">
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="product_content_box">
+                                <span class="product_title">IPHONE</span>
+                                <a href="">
+                                    <p class="product_desk">Apple iPhone 11 64GB Smartphone - Black.</p>
+                                </a>
+                                <div class="review_box">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <span>1,003 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                    <strong>$349</strong>
+                                    <span>$350</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide product_box">
+                            <a href="">
+                                <div class="product_img_box" style="background: url('images/products/iRobot.png'); background-size: cover;">
+                                    <div class="hover_box">
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="product_content_box">
+                                <span class="product_title">SONY</span>
+                                <a href="">
+                                    <p class="product_desk">iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty Robot.</p>
+                                </a>
+                                <div class="review_box">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <span>2,450 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                    <strong>$399.00</strong>
+                                    <span>$400</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide product_box">
+                            <a href="">
+                                <div class="product_img_box" style="background: url('images/products/watch.png'); background-size: cover;">
+                                    <div class="hover_box">
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="product_content_box">
+                                <span class="product_title">SAMSUNG</span>
+                                <a href="">
+                                    <p class="product_desk">Apple Watch SE (GPS) 40mm Space Grey Aluminum Case with</p>
+                                </a>
+                                <div class="review_box">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <img src="./images/icons/review.svg" alt="">
+                                    <span>3,014 reviews</span>
+                                </div>
+                                <div class="price_box">
+                                    <strong>$32.50</strong>
+                                    <span>$45</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="next_prev_box product_next" style="transform: scaleX(-1);">
+                    <img src="./images/icons/next.svg" alt="">
+                </div>
+            </div>
                 <div class="pagionation_box">
                     <div class="pagionation-main">
                         <img src="./images/icons/arrow-prev_next.svg" alt="" style="cursor: pointer;">
@@ -852,5 +982,20 @@
         </div>
     </div>
 </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+    const productSwiper = new Swiper('.product_swiper', {
+        slidesPerView: 4,
+        spaceBetween: 6,
+        navigation: {
+            nextEl: '.product_next',
+            prevEl: '.product_prev',
+        },
+        pagination: {
+            el: '.product_pagination',
+            clickable: true,
+        },
+    });
+</script>
 </body>
 </html>
