@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenmart - Products</title>
+    <link rel="stylesheet" href="../css/command.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+</head>
+<body>
+     <div class="navbar_frame">
+        <div class="container">
+            <div class="navbar_top">
+                <a href="index.html">
+                    <img  class="image1" src="../images/icons/logo.png" alt="Zenmart logo" />
+                </a>
+                <div class="nav_search_frame">
+                    <div class="search_box">
+                        <div class="category_list">
+                            <select name="category" id="category">
+                                <option value="all" selected>All Categories</option>
+                                <option value="com">Computers</option>
+                                <option value="head">Headphones</option>
+                            </select>
+                        </div>
+                        <input type="text" placeholder="search products..." />
+                    </div>
+                    <div class="search_icon_box">
+                        <img src="../images/icons/search.svg" alt="Search" />
+                    </div>
+                </div>
+                <div class="nav_top_menu">
+                    <div class="top_menu_box">
+                        <div class="icon_box">
+                           <a href="">
+                            <img src="../images/icons/heart.svg" alt="Wishlist" />
+                           </a>
+                        </div>
+                        <div class="info_box">
+                            <span>Wishlist</span>
+                            <strong>My Items</strong>
+                        </div>
+                    </div>
+                    <div class="top_menu_box">
+                        <div class="icon_box">
+                            <img src="../images/icons/profile.svg" alt="Account" />
+                        </div>
+                        <div class="info_box">
+                           <a href="">
+                             <span>Sign In</span>
+                           </a>
+                            <strong>Account</strong>
+                        </div>
+                    </div>
+                    <div class="top_menu_box">
+                        <div class="icon_box">
+                            <div class="basket_count">2</div>
+                            <img src="../images/icons/shopping-cart.svg" alt="Cart" />
+                        </div>
+                        <div class="info_box">
+                            <span>$399.99</span>
+                            <strong>Total</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar_bott">
+                <div class="navbat_bott_menu_box">
+                    <div class="browse_box">
+                        <img src="../images/icons/browse.svg" alt="Categories" />
+                        <span>Browse Categories</span>
+                    </div>
+                    <div class="navbar_route_menu">
+                        <a href="homepage1.html" class="title">Home</a>
+                        <a href="shop.html">Shop</a>
+                        <a href="orders.html">Orders</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="sorting_menu">
+                        <span>Deal of the Day</span>
+                        <span>Hot Deals</span>
+                        <span>Best Sellers</span>
+                        <span>New Arriwals</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all-product-homepage">
+        <div class="product-frame">
+            <div class="container">
+                <div class="product-top">
+                    <div class="product-content">
+                        <a href="">All Electronics</a>
+                        <a href="">Smart TV</a>
+                        <a href="" class="active">Laptops</a>
+                        <a href="">Cell Phones</a>
+                        <a href="">Camera &; Photo</a>
+                        <a href="">Portable Audio</a>
+                        <a href="">Computers</a>
+                        <a href="">iPad &; Tablets</a>
+                        <a href="">Pc Gaming</a>
+                        <a href="">Smart Home</a>
+                        <a href="">Headphones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="breadcrumb_frame">
+            <div class="container">
+                <a href="">Home</a>
+                <span>/</span>
+                <a href="">Electronics</a>
+                <span>/</span>
+                <a href="">Computers</a>
+                <span>/</span>
+                <span class="current">Desktop Computers</span>
+            </div>
+        </div>
+
+        <div class="promo_frame">
+            <div class="container">
+                <div class="swiper promo_swiper promo_boxes">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide promo_slide">
+                            <div class="promo_content">
+                                <span>Save up to $130 on select laptops.</span>
+                                <p>All kind of products in one place. Starts from $1. Get cashbacks &amp; offers</p>
+                                <a href="" class="promo_btn">Shop Deals</a>
+                            </div>
+                            <img class=" shop_header_img" src="../images/icons/shop_header_bg.png" alt="Save up to $130 on select laptops">
+                        </div>
+                    </div>
+                </div>
+                <div class="pagionation_box">
+                    <div class="pagionation-main">
+                        <div class="next_prev_box promo_prev">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        <div class="pagionation-dot promo_pagination"></div>
+                        <div class="next_prev_box promo_next">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shop_category_frame">
+            <div class="container">
+                <div class="category_top">
+                    <span>Shop By Category</span>
+                    <a href="">View All Categories</a>
+                </div>
+                <div class="category_wrapper">
+                    <div class="category_box">
+                        <div class="category_img_box">
+                            <img src="../images/category/tv.png" alt="">
+                        </div>
+                        <span>TVs, Home Theatre, and Accessories</span>
+                    </div>
+                    <div class="category_box">
+                        <div class="category_img_box">
+                            <img src="../images/category/computer.png" alt="">
+                        </div>
+                        <span>Computers, Tablets, and Accessories</span>
+                    </div>
+                    <div class="category_box">
+                        <div class="category_img_box">
+                            <img src="../images/category/smart.png" alt="">
+                        </div>
+                        <span>Smart Home</span>
+                    </div>
+                    <div class="category_box">
+                        <div class="category_img_box">
+                            <img src="../images/category/headphone.png" alt="">
+                        </div>
+                        <span>Headphones and Portable Speakers</span>
+                    </div>
+                    <div class="category_box">
+                        <div class="category_img_box">
+                            <img src="../images/category/phone.png" alt="">
+                        </div>
+                        <span>Cell Phones and Accessories</span>
+                    </div>
+                    <div class="category_box">
+                        <div class="category_img_box">
+                            <img src="../images/category/game.png" alt="">
+                        </div>
+                        <span>Video Games, Consoles, and Accessories</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="brand_frame">
+            <div class="container">
+                <div class="category_top">
+                    <span>Shop By Brand</span>
+                </div>
+                <div class="brand_wrapper">
+                    <div class="brand_box active">Apple</div>
+                    <div class="brand_box">Dell</div>
+                    <div class="brand_box">Hp</div>
+                    <div class="brand_box">Lenovo</div>
+                    <div class="brand_box">Samsung</div>
+                    <div class="brand_box">Asus</div>
+                    <div class="brand_box">Acer</div>
+                    <div class="brand_box">Sony</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+        const promoSwiper = new Swiper('.promo_swiper', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            navigation: {
+                nextEl: '.promo_next',
+                prevEl: '.promo_prev',
+            },
+            pagination: {
+                el: '.promo_pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>

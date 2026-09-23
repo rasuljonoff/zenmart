@@ -1,0 +1,213 @@
+.all-product-homepage {
+    display: flex;
+    flex-direction: column;
+
+    .product-frame {
+        position: relative;
+        margin-top: 14px;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+
+        .container {
+            flex-direction: row;
+            justify-content: space-between;
+            flex-direction: column;
+
+            .product-top {
+                display: flex;
+                flex-direction: row;
+
+                .product-content {
+                    display: flex;
+                    flex-direction: row;
+
+                    gap: 35px;
+
+                    a {
+                        color: rgba(4, 30, 66, 1);
+
+                        font-family: "Jost";
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        padding-bottom: 10px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                        a.active {
+                            border-bottom: 2px solid rgba(4, 30, 66, 1);
+                        }
+                    
+                }
+            }        
+        
+            .bottom-product-frame {
+             display: flex;
+       
+
+            
+                span {
+                    margin-top: 10px;
+                    gap: 30px;
+                    font-family: "Jost";
+                    font-style: Regular;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+/* BREADCRUMB */
+.breadcrumb_frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.breadcrumb_frame .container {
+    flex-direction: row;
+    align-items: center;
+}
+.breadcrumb_frame a,
+.breadcrumb_frame span {
+    color: rgba(98, 105, 116, 1);
+    font-family: "Jost";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-right: 8px;
+}
+.breadcrumb_frame a:hover {
+    color: rgba(4, 30, 66, 1);
+}
+.breadcrumb_frame .current {
+    color: rgba(4, 30, 66, 1);
+    font-weight: 500;
+}
+
+/* PROMO BANNER */
+.promo_frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.promo_frame .container {
+    flex-direction: column;
+}
+.promo_frame .promo_swiper {
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.promo_frame .promo_slide {
+    width: 100%;
+    height: 420px;
+    background: rgba(243, 245, 246, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.promo_frame .promo_content {
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+.promo_frame .promo_content span {
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+}
+.promo_frame .promo_content p {
+    margin-top: 15px;
+    color: rgba(98, 105, 116, 1);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.promo_frame .promo_btn {
+    margin-top: 20px;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(245, 195, 75, 1);
+    border-radius: 6px;
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 500;
+}
+.promo_frame .shop_header_img {
+    max-height: 100%;
+    background-size:contain;
+    
+}
+
+/* SHOP BY BRAND */
+.brand_frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.brand_frame .container {
+    flex-direction: column;
+}
+.brand_frame .brand_wrapper {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.brand_frame .brand_box {
+    padding: 12px 26px;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.brand_frame .brand_box.active {
+    background: rgba(0, 83, 246, 1);
+    border-color: rgba(0, 83, 246, 1);
+    color: #ffffff;
+}
+.brand_frame .brand_box:hover {
+    border-color: rgba(0, 83, 246, 1);
+}
+
+/* PRODUCT PAGE CATEGORY TABS (active link underline) */
+.product-content a {
+    color: rgba(4, 30, 66, 1);
+    font-family: "Jost";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+.product-content a.active {
+    border-bottom: 2px solid rgba(4, 30, 66, 1);
+}
+.product-content a:hover {
+    border-bottom: 2px solid rgba(4, 30, 66, 1);
+}

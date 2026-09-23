@@ -842,7 +842,7 @@
     margin-top: 30px;
     width: 100%;
     height: auto;
-
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -854,6 +854,8 @@
 
     display: flex;
     flex-direction: row;
+    overflow: hidden;
+    position: relative;
 }
 .tv_frame .tv_product_boxes .tv_product_box {
     width: 260px;
